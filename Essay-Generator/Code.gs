@@ -39,7 +39,7 @@ function onFormSubmit(e) {
       body.replaceText('<<Date>>', Utilities.formatDate(new Date(), "GMT+9", "yyyy/MM/dd"));
       body.replaceText('<<wordcount>>', wordCount);
       
-      var slackIncomingWebhookUrl = 'https://hooks.slack.com/services/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';
+      var slackIncomingWebhookUrl = 'slack-hook';
       var postIcon = ":mailbox_with_mail:";
       var postUser = "Independent Essay Form";
       
