@@ -126,7 +126,6 @@ function createStudentAnswersPDFForStudent(allQuizzesData, student) {
 
   createStudentAnswersDocForStudent(document, allQuizzesData, student);
   document.saveAndClose();
- // Utilities.sleep(10000); // wait for changes to hold, this slows down PDF generation, but we have to do this
 
   var studentClass = student.match(/[0-9a-z\-]+/gmi)[0];
 
@@ -167,13 +166,8 @@ function myFunction() {
   var studentUniqueNames = getUniqueClassNames(allQuizzesData);
   studentUniqueNames.sort();
   Logger.log((studentUniqueNames.length-2) + ' students found\n'+studentUniqueNames.sort());
-  //return;
   
-  // testing
-  // createStudentAnswersPDFForStudent(allQuizzesData, 'MS3S 유현지');
- // return;
-
-  var studentNo = 78;
+  var studentNo = 0;
   
   // live
   for (;studentNo < studentUniqueNames.length; studentNo++) {
