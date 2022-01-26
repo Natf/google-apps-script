@@ -143,7 +143,7 @@ function createStudentAnswersPDFForStudent(allQuizzesData, student) {
   }
 }
 
-function myFunction() {
+function exportAllQuizzestoPDF() {
   var start = new Date();
   var spreadSheet = SpreadsheetApp.getActive();
   var allQuizSpreadsheets = [
