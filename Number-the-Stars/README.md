@@ -7,4 +7,4 @@ This was made to easily export the quizzes, which the students completed using g
 *Spreadsheet showing quiz answers (student names have been hidden)*
  
 <img alt="PDF with student and quiz answers" src="https://raw.githubusercontent.com/Natf/google-apps-script/master/Number-the-Stars/nts-quiz-answer-example.gif" width="50%"><br>
-*PDF file showing student's answers and correct answer to quiz (student names have been hidden))*
+*PDF file showing student's answers and correct answer to quiz (student names have been hidden)*
